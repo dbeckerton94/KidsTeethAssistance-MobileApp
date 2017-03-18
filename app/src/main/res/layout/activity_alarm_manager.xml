@@ -1,0 +1,98 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cartoonbg">
+
+
+
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton"
+        android:layout_x="270dp"
+        android:layout_y="476dp"
+        android:background="@drawable/clockd"
+        android:onClick="onBrushteeth" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton2"
+        android:layout_x="4dp"
+        android:layout_y="476dp"
+        android:background="@drawable/home1"
+        android:onClick="onBrushteeth" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton3"
+        android:layout_x="92dp"
+        android:layout_y="476dp"
+        android:background="@drawable/store2"
+        android:onClick="onBrushteeth" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton4"
+        android:layout_x="182dp"
+        android:layout_y="476dp"
+        android:background="@drawable/profile3"
+        android:onClick="onBrushteeth" />
+
+
+    <Button
+        android:id="@+id/btStart"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="Set Notification Time"
+        android:onClick="startRepeatingTimer"
+        tools:context=".WidgetAlarmManagerActivity"
+        android:layout_x="44dp"
+        android:layout_y="215dp" />
+    <Button
+        android:id="@+id/btCancel"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="Cancel Notifications"
+        android:onClick="cancelRepeatingTimer"
+        tools:context=".WidgetAlarmManagerActivity"
+        android:layout_x="35dp"
+        android:layout_y="276dp" />
+
+    <EditText
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:background="@drawable/rect_text_edit"
+        android:layout_x="66dp"
+        android:layout_y="177dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Time (24hr)"
+        android:id="@+id/textView19"
+        android:layout_x="-5dp"
+        android:layout_y="157dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Teeth Brushing Notifications"
+        android:id="@+id/textView20"
+        android:layout_x="43dp"
+        android:layout_y="33dp"
+        android:textColor="#000000" />
+
+
+</AbsoluteLayout>

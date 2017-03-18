@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mobileassignment2.teeth_wars.RegisterS2"
+    android:background="@drawable/cartoonbg">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_x="0dp"
+        android:layout_y="35dp"
+        android:src="@drawable/bobww" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextb"
+        android:layout_x="242dp"
+        android:layout_y="397dp"
+        android:onClick="onButtonClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:id="@+id/prevbut"
+        android:layout_x="51dp"
+        android:layout_y="397dp"
+        android:onClick="onButtonClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:id="@+id/avatarconf"
+        android:layout_x="144dp"
+        android:layout_y="481dp"
+        android:onClick="onButtonClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Choose a Companion to help you brush your Teeth!"
+        android:id="@+id/textView11"
+        android:layout_x="-1dp"
+        android:layout_y="-1dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Spondge Bob"
+        android:id="@+id/avatartext"
+        android:layout_x="246dp"
+        android:layout_y="58dp"
+        android:visibility="invisible" />
+
+</AbsoluteLayout>
